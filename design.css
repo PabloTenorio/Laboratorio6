@@ -1,0 +1,66 @@
+
+body {
+    /* Degradado que comienza con magenta seguido de otros colores */
+    background: linear-gradient(to bottom, rgb(147, 39, 143),rgb(102, 45, 145));
+    
+    /* Evitar que el degradado se repita */
+    background-repeat: no-repeat;
+    
+    /* Asegura que el degradado cubra toda el área visible */
+    background-size: cover;
+    
+    /* Esto ayuda a que el fondo ocupe todo el espacio, incluso si el contenido es menor */
+    min-height: 100vh;
+    
+    /* Elimina márgenes para asegurarte de que el fondo esté pegado a los bordes */
+    margin: 0;
+  }
+
+header {
+    background-color: #64b746;
+    width: 100%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    z-index: 1;
+    margin: 0 !important;
+  }
+
+  #menuBtn p{
+    color: #ff5214;
+  }
+
+header p{
+    color: #fff;
+    text-align: center;
+    font-size: 2.5vh;
+    font-family: 'Poppins-Regular';
+}
+
+header .pad{
+    padding-top: 1.5vh;
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+header .logo{
+    background: url('images/Logo.png') center center/contain no-repeat;
+    height: 7vh;   
+}
+
+.active{
+    color: rgb(102, 45, 145) !important;
+    font-weight: bold;
+}
+
+section {
+    margin-top: 5vh;
+    text-align: center;
+}
+
+section h1{
+    color: #fff;
+}
